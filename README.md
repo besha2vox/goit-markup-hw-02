@@ -10,9 +10,9 @@ class="nav-list"
 class="nav-list-item
 class="nav-list-link"
 
-class="comtacts-list"
-class="comtacts-list-item"
-class="comtacts-list-link
+class="contacts-list"
+class="contacts-list-item"
+class="contacts-list-link
 
 <!-- MAIN  -->
 
@@ -35,10 +35,10 @@ class="feature-list-discription"
 
 <!-- Деятельность  -->
 
-class="doing"
+class="activity"
 class="studio-tittle"
-class="doing-list"
-class="doing-list-item"
+class="activity-list"
+class="activity-list-item"
 
 <!-- Команда  -->
 
@@ -57,6 +57,11 @@ class="content-tittle"
 
 class="btn-list"
 class="btn-list-item"
+class="btn-all"
+class="btn-web"
+class="btn-app"
+class="btn-disign"
+class="btn-marketing"
 
 class="portfolio-list"
 class="portfolio-list-item"
@@ -69,4 +74,5 @@ class="footer"
 class="footer-logo"
 class="blue-logo"
 class="adds"
-class="fotter-contact-list-item"
+class="contact-list"
+class="contact-list-item"
