@@ -253,13 +253,16 @@ body {
 /* ФУТЕР  */
 
 .footer {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #2f303a;
+  height: 252px;
 }
 
 .footer-logo {
-  margin: 0 0 20px 215px;
-  margin-top: 60px;
+  margin: 0 0 0 215px;
+  color: #ffffff;
 }
 
 .adress {
@@ -270,21 +273,18 @@ body {
 }
 
 .adds {
-  margin-bottom: 9px;
+  margin-bottom: 0;
   margin-left: 215px;
 }
 
 .contact-list {
   list-style-type: none;
-  margin: 0;
-}
-..contact-list {
-  margin-left: -15px;
-  margin-bottom: 9px;
 }
 
 .contact-list-link {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   margin-left: 175px;
+  margin-bottom: 9px;
+  margin-top: 0;
 }
