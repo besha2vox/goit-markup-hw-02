@@ -27,7 +27,7 @@ class="hero-btn"
 <!-- Особенности  -->
 
 class="features"
-class="feature-tittle
+class="visually-hidden"
 class="feature-list"
 class="feature-list-item"
 class="feature-list-tittle"
@@ -53,7 +53,7 @@ class="team-list-discription"
 
 class="portfolio"
 class="content"
-class="content-tittle"
+class="visually-hidden"
 
 class="btn-list"
 class="btn-list-item"
