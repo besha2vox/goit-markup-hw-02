@@ -6,6 +6,7 @@
   --accent-color: #2196f3;
   --primary-bgc: #ffffff;
   --secondary-bgc: #2f303a;
+  --tertiary-bgc: #f5f4fa;
 }
 
 body {
@@ -24,8 +25,8 @@ body {
 .footer-logo,
 .logo {
   text-decoration: none;
-  font-family: Raleway, sans-serif;
   color: var(--black-color);
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -35,7 +36,10 @@ body {
   color: var(--accent-color);
 }
 
-.nav-list {
+.nav-list,
+.activity-list,
+.btn-list,
+.contact-list {
   list-style-type: none;
 }
 
@@ -62,9 +66,6 @@ body {
 }
 
 /* HERO  */
-.studio {
-  text-align: center;
-}
 .hero {
   color: var(--primary-bgc);
   background-color: var(--secondary-bgc);
@@ -74,12 +75,16 @@ body {
   text-transform: uppercase;
 }
 
+.hero-tittle {
+  text-align: center;
+}
+
 .hero-btn {
+  background: var(--accent-color);
   color: var(--primary-bgc);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  background: var(--accent-color);
 }
 
 /* Особенности  */
@@ -99,54 +104,50 @@ body {
 .feature-list {
   list-style-type: none;
   color: var(--primary-text-color);
-  text-align: center;
-  width: 1170px;
   font-size: 14px;
   line-height: 1.7;
-  text-align: left;
 }
 
 .feature-list-item {
 }
 
 .feature-list-tittle {
+  color: var(--tittle-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--tittle-text-color);
 }
 
 /* Деятельность + Команда */
 
-.activity-list {
-  list-style-type: none;
-}
-
 .studio-tittle {
+  color: var(--tittle-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  color: var(--tittle-text-color);
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--tertiary-bgc);
   font-size: 16px;
   line-height: 1.19;
 }
 
 .team-list {
+  background-color: var(--primary-bgc);
   list-style-type: none;
 }
 
 .team-list-tittle {
-  font-weight: 500;
   color: var(--tittle-text-color);
+  font-weight: 500;
+  text-align: center;
 }
 
 .team-list-discription {
   color: var(--primary-text-color);
+  text-align: center;
 }
 
 .team-list-item {
@@ -154,11 +155,6 @@ body {
 
 /* ПОРТФОЛИО  */
 .portfolio {
-  text-align: center;
-}
-
-.btn-list {
-  list-style-type: none;
 }
 
 .btn {
@@ -211,10 +207,6 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
-}
-
-.contact-list {
-  list-style-type: none;
 }
 
 .contact-list-link {
