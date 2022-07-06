@@ -98,10 +98,11 @@ body {
 
 .feature-list {
   list-style-type: none;
+  color: var(--primary-text-color);
+  text-align: center;
   width: 1170px;
   font-size: 14px;
   line-height: 1.7;
-  color: var(--primary-text-color);
   text-align: left;
 }
 
