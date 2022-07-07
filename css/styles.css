@@ -4,6 +4,7 @@
   --black-color: #000000;
   --tittle-text-color: #212121;
   --accent-color: #2196f3;
+  --secodary-accent: #188ce8;
   --primary-bgc: #ffffff;
   --secondary-bgc: #2f303a;
   --tertiary-bgc: #f5f4fa;
@@ -60,6 +61,8 @@ body {
 
 .contacts-list-link:hover,
 .contacts-list-link:focus,
+.contact-list-link:hover,
+.contact-list-link:focus,
 .nav-list-link:hover,
 .nav-list-link:focus {
   color: var(--accent-color);
@@ -85,6 +88,10 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+}
+
+.hero-btn:hover {
+  background-color: var(--secodary-accent);
 }
 
 /* Особенности  */
@@ -160,7 +167,7 @@ body {
 .btn {
   text-decoration: none;
   color: var(--tittle-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--tertiary-bg);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
