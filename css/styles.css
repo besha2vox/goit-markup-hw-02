@@ -13,6 +13,7 @@
 body {
   font-family: Roboto, sans-serif;
   background-color: var(--primary-bgc);
+  letter-spacing: 0.03em;
 }
 
 /* HEADER  */
@@ -47,16 +48,17 @@ body {
 .nav-list-link {
   text-decoration: none;
   color: var(--tittle-text-color);
+  letter-spacing: 0.02em;
 }
 
 .contacts-list {
   list-style-type: none;
-  color: var(--primary-text-color);
 }
 
 .contacts-list-link {
   text-decoration: none;
-  color: var(--tittle-text-color);
+  color: var(--primary-text-color);
+  letter-spacing: 0.02em;
 }
 
 .contacts-list-link:hover,
@@ -72,14 +74,15 @@ body {
 .hero {
   color: var(--primary-bgc);
   background-color: var(--secondary-bgc);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-transform: uppercase;
 }
 
 .hero-tittle {
   text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-btn {
@@ -88,6 +91,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 .hero-btn:hover {
@@ -137,27 +141,27 @@ body {
 
 .team {
   background-color: var(--tertiary-bgc);
-  font-size: 16px;
-  line-height: 1.19;
 }
 
 .team-list {
-  background-color: var(--primary-bgc);
   list-style-type: none;
+}
+
+.team-list-item {
+  background-color: var(--primary-bgc);
 }
 
 .team-list-tittle {
   color: var(--tittle-text-color);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
   text-align: center;
 }
 
 .team-list-discription {
   color: var(--primary-text-color);
   text-align: center;
-}
-
-.team-list-item {
 }
 
 /* ПОРТФОЛИО  */
@@ -167,7 +171,7 @@ body {
 .btn {
   text-decoration: none;
   color: var(--tittle-text-color);
-  background-color: var(--tertiary-bg);
+  background-color: var(--tertiary-bgc);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
