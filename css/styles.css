@@ -119,9 +119,6 @@ body {
   line-height: 1.7;
 }
 
-.feature-list-item {
-}
-
 .feature-list-tittle {
   color: var(--tittle-text-color);
   font-weight: 700;
@@ -165,9 +162,6 @@ body {
 }
 
 /* ПОРТФОЛИО  */
-.portfolio {
-}
-
 .btn {
   text-decoration: none;
   color: var(--tittle-text-color);
@@ -176,6 +170,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 
@@ -201,6 +196,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 /* ФУТЕР  */
