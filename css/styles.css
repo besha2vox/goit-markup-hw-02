@@ -94,7 +94,8 @@ body {
   letter-spacing: 0.06em;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: var(--secodary-accent);
 }
 
@@ -163,7 +164,6 @@ body {
 
 /* ПОРТФОЛИО  */
 .btn {
-  text-decoration: none;
   color: var(--tittle-text-color);
   background-color: var(--tertiary-bgc);
   font-family: inherit;
