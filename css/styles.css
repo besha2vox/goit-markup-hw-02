@@ -2,7 +2,7 @@
   --primary-text-color: #757575;
   --secondary-text-color: rgba(255, 255, 255, 0.6);
   --black-color: #000000;
-  --tittle-text-color: #212121;
+  --title-text-color: #212121;
   --accent-color: #2196f3;
   --secodary-accent: #188ce8;
   --primary-bgc: #ffffff;
@@ -47,7 +47,7 @@ body {
 
 .nav-list-link {
   text-decoration: none;
-  color: var(--tittle-text-color);
+  color: var(--title-text-color);
   letter-spacing: 0.02em;
 }
 
@@ -76,7 +76,7 @@ body {
   background-color: var(--secondary-bgc);
 }
 
-.hero-tittle {
+.hero-title {
   text-align: center;
   font-weight: 900;
   font-size: 44px;
@@ -120,8 +120,8 @@ body {
   line-height: 1.7;
 }
 
-.feature-list-tittle {
-  color: var(--tittle-text-color);
+.feature-list-title {
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -130,8 +130,8 @@ body {
 
 /* Деятельность + Команда */
 
-.studio-tittle {
-  color: var(--tittle-text-color);
+.studio-title {
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -149,8 +149,8 @@ body {
   background-color: var(--primary-bgc);
 }
 
-.team-list-tittle {
-  color: var(--tittle-text-color);
+.team-list-title {
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -164,7 +164,7 @@ body {
 
 /* ПОРТФОЛИО  */
 .btn {
-  color: var(--tittle-text-color);
+  color: var(--title-text-color);
   background-color: var(--tertiary-bgc);
   font-family: inherit;
   font-weight: 500;
@@ -191,8 +191,8 @@ body {
   color: var(--primary-text-color);
 }
 
-.portfolio-list-tittle {
-  color: var(--tittle-text-color);
+.portfolio-list-title {
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -219,4 +219,8 @@ body {
 .contact-list-link {
   text-decoration: none;
   color: var(--secondary-text-color);
+}
+
+.active-page {
+  color: var(--accent-color);
 }
