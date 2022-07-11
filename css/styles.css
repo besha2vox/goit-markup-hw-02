@@ -38,11 +38,8 @@ body {
   color: var(--accent-color);
 }
 
-.nav-list,
-.activity-list,
-.btn-list,
-.contact-list {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
 
 .nav-list-link {
@@ -55,18 +52,18 @@ body {
   list-style-type: none;
 }
 
-.contacts-list-link {
+.link {
   text-decoration: none;
+}
+
+.contacts-list-link {
   color: var(--primary-text-color);
   letter-spacing: 0.02em;
 }
 
-.contacts-list-link:hover,
-.contacts-list-link:focus,
-.contact-list-link:hover,
-.contact-list-link:focus,
-.nav-list-link:hover,
-.nav-list-link:focus {
+.link:focus,
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
