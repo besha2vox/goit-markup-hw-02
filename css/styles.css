@@ -26,6 +26,7 @@ body {
 
 .footer-logo,
 .logo {
+  text-decoration: none;
   color: var(--black-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -59,7 +60,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.link:focus,
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -181,9 +181,8 @@ body {
   line-height: 1.9;
 }
 
-.portfolio-list-link,
-.portfolio-list-link:hover,
-.portfolio-list-link:focus {
+.portfolio-list-link {
+  text-decoration: none;
   color: var(--primary-text-color);
 }
 
